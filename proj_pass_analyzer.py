@@ -78,7 +78,7 @@ while True:
         print("\nGreat password! You're good to go!")
 
 # Save to Log File
-        desktop = os.path.join(os.path.expanduser("~"), "OneDrive" "Desktop")
+        desktop = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop")
         log_path = os.path.join(desktop, "Logs", "password_log.txt")
         log =  open(log_path, "a")
         log.write(f"\n--- {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
